@@ -3,17 +3,14 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="text-gray-700 bg-white ">
-      <div className="flex p-5 mx-auto border-b items-center flex-row justify-between">
+      <div className="flex px-4 py-5 sm:px-10 mx-auto border-b items-center flex-row justify-between">
         <a
-          href="./index.html"
+          href="/"
           className="pr-2 lg:pr-8 lg:px-6 focus:outline-none"
         >
-          <div className="inline-flex items-center">
-            <div className="w-2 h-2 p-2 mr-2 rounded-full bg-gradient-to-tr from-cyan-400 to-lightBlue-500"></div>
-            <h2 className="font-semibold tracking-tighter text-gray-500 transition duration-1000 ease-in-out transform text-bold lg:mr-8">
-              Babatunde Yakub
-            </h2>
-          </div>
+          <h2 className="font-semibold tracking-tighter text-gray-500 transition duration-1000 ease-in-out transform text-bold lg:mr-8">
+            Babatunde Yakub
+          </h2>
         </a>
         <button
           className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
