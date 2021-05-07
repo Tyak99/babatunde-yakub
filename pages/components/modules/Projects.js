@@ -17,6 +17,7 @@ const Projects = () => {
           image="fibre-image"
           webLink="https://fibre.ng"
         />
+        <hr className='sm:hidden w-3/6 m-auto' />
         <RtlProject
           title="Jackocoins"
           desc="Jackocoins is a business that started on Whatsapp, buying and selling cryptocurrencies. The business soon became too large and complex to manage,
@@ -26,6 +27,7 @@ const Projects = () => {
           webLink="https://jackocoins.com"
           mobileLink="https://play.google.com/store/apps/details?id=com.jackocoins.app"
         />
+        <hr className='sm:hidden w-3/6 m-auto'  />
         <Project
           title="SideHustle"
           desc="After a 3 days Hackothon with Wema Bank in 2019 (Hackaholics), I and my team were called back to build the solution we pitched to them, we 
