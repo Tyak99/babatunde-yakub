@@ -10,7 +10,7 @@ const Projects = () => {
 
       <div className="flex flex-col gap-12 mt-8">
         <Project
-          title="Jackocoins"
+          title="SideHustle"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
         nisl lacus, vel vestibulum lectus pulvinar aliquet. Morbi commodo
         laoreet ligula non dictum."
@@ -21,14 +21,14 @@ const Projects = () => {
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
         nisl lacus, vel vestibulum lectus pulvinar aliquet. Morbi commodo
         laoreet ligula non dictum."
-          image="sidehustle-image"
+          image="fibre-image"
         />
         <Project
-          title="SideHustle"
+          title="Jackocoins"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
         nisl lacus, vel vestibulum lectus pulvinar aliquet. Morbi commodo
         laoreet ligula non dictum."
-          image="sidehustle-image"
+          image="jackocoins-image"
         />
       </div>
     </div>

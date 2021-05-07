@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'sidehustle-image': "url('/project-images/sidehustle.jpg')",
-        'footer-texture': "url('/project-images/footer-texture.png')",
+        'fibre-image': "url('/project-images/fibre.svg')",
+        'jackocoins-image': "url('/project-images/jackocoins.svg')",
        }),
        height: {
          '112': '28rem',

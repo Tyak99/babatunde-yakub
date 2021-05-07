@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="border-b py-8">
       <div className="flex">
         <div>
-          <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800">
+          <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 tracking-wide">
             Hello there,
           </h3>
           <p className="leading-loose font-light lg:w-4/5 text-lg">
@@ -18,8 +18,8 @@ const Hero = () => {
           </p>
           <div className="mt-4">
             <div className="flex flex-col sm:flex-row">
-              <Badge text="Frontend Engineering" />
-              <Badge text="Backend Engineering" />
+              <Badge text="Frontend Engineering" icon='code'/>
+              <Badge text="Backend Engineering" icon='server' />
             </div>
             <Badge text="Cloud Enthusiast(I love AWS)" icon="cloud" />
           </div>

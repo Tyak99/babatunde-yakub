@@ -5,7 +5,7 @@ import Projects from "./modules/Projects";
 
 const Main = () => {
   return (
-    <div className="px-10">
+    <div className="px-2.5 sm:px-10">
       <Hero />
       <Projects />
       <Contact />
