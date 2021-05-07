@@ -8,7 +8,7 @@ const Hero = () => {
           <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 tracking-wide">
             Hello there,
           </h3>
-          <p className="leading-loose font-light lg:w-4/5 text-lg">
+          <p className="leading-loose font-light lg:w-4/5 text-lg mb-4">
             My name is Babatunde Yakub, a FullStack Engineer. I’m a systems
             thinker who can work with a team to transform complex workflows into
             intuitive technology. I have a history of Web development and
@@ -16,7 +16,7 @@ const Hero = () => {
             can convert your idea into a product. Do you have a project I can
             help you with? <a href="#contact" className='underline'>Contact me</a>
           </p>
-          <div className="mt-4">
+          <div>
             <div className="flex">
               <Badge text="Frontend" icon='code'/>
               <Badge text="Backend" icon='server' />

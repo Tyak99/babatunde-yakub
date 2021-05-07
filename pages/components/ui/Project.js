@@ -3,7 +3,7 @@ const Project = ({ title, desc, image, mobileLink, webLink }) => {
     <div className="flex flex-col lg:flex-row">
       <div className={`bg-${image} h-96 bg-cover lg:w-3/6 mb-4`}></div>
       <div className="p-4 lg:py-12 lg:px-12 lg:w-3/6 flex space-y-4 flex-col items-start">
-        <h4 className="text-2xl font-semibold leading-normal mb-2 text-gray-800">
+        <h4 className="text-xl font-semibold leading-normal mb-2 text-gray-800">
           {title}
         </h4>
         <p className="text-xl font-light">{desc}</p>
