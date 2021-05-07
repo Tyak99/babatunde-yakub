@@ -21,7 +21,7 @@ const Hero = () => {
               <Badge text="Frontend Engineering" icon='code'/>
               <Badge text="Backend Engineering" icon='server' />
             </div>
-            <Badge text="Cloud Enthusiast(I love AWS)" icon="cloud" />
+            <Badge text="Cloud Enthusiast (I love AWS)" icon="cloud" />
           </div>
         </div>
         <img src="./hero.svg" alt="" className='hidden lg:block w-2/4' />

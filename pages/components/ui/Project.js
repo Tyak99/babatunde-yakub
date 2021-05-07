@@ -7,9 +7,9 @@ const Project = ({ title, desc, image, mobileLink, webLink }) => {
           {title}
         </h4>
         <p className="text-xl font-light">{desc}</p>
-        <div className='flex flex-row space-x-4'>
-          {webLink && <a href={webLink} target='_blank' className='hover:text-gray-500'>View Website</a>}
-          {mobileLink && <a href={mobileLink} target='_blank' className='hover:text-gray-500'>View App</a>}
+        <div className='flex flex-row space-x-5'>
+          {webLink && <a href={webLink} target='_blank' className='hover:text-gray-500 font-semibold'>View Website</a>}
+          {mobileLink && <a href={mobileLink} target='_blank' className='hover:text-gray-500 font-semibold'>View App</a>}
         </div>
       </div>
     </div>

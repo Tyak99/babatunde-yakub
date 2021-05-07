@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex px-4 py-5 sm:px-10 mx-auto border-b items-center flex-row justify-between">
         <a
           href="/"
-          className="pr-2 lg:pr-8 lg:px-6 focus:outline-none"
+          className="pr-2 lg:pr-8 focus:outline-none"
         >
           <h2 className="font-semibold tracking-tighter text-gray-500 transition duration-1000 ease-in-out transform text-bold lg:mr-8">
             Babatunde Yakub
