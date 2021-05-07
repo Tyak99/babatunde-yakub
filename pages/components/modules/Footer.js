@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="flex justify-between flex-grow">
         <div>
           <h4 className="mb-4 font-semibold text-lg">Profile</h4>
-          <div className="flex flex-col md:flex-row gap-2 font-light underline">
+          <div className="flex flex-col space-y-2 md:flex-row md:space-x-2 font-light underline">
             <a href="htt" className="hover:text-gray-800">
               Github
             </a>
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="mb-4 font-semibold text-lg">Other Links</h4>
-          <div className="flex flex-col md:flex-row gap-2 font-light underline">
+          <div className="flex flex-col space-y-2 md:flex-row md:space-x-2font-light underline">
             <a href="htt" className="hover:text-gray-800">
               Resume
             </a>

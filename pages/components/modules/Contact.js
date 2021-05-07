@@ -4,14 +4,14 @@ const Contact = () => {
       <h4 className="text-2xl font-semibold leading-normaltext-gray-800 mb-2">
         Contact me
       </h4>
-      <div className="flex flex-col gap-4">
-        <p className="text-xl font-light">
+      <div className="flex flex-col">
+        <p className="text-xl font-light mt-4">
           You can send me an email{" "}
           <a className="underline" href="mailto:tundenasri@gmail.com">
             tundenasri@gmail.com
           </a>
         </p>
-        <p className="text-xl font-light">
+        <p className="text-xl font-light mt-4">
           Connect with me on LinkedIn{" "}
           <a
             className="underline"
@@ -21,7 +21,7 @@ const Contact = () => {
             Babatunde Yakub
           </a>
         </p>
-        <p className="text-xl font-light">
+        <p className="text-xl font-light mt-4">
           Follow me on Twitter{" "}
           <a className="underline" href="https://twitter.com/tundenasri" target='_blank'>
             @tundenasri

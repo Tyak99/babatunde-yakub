@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     maxWidth: {
-      xs: "18rem",
+      xs: "16rem",
     },
     extend: {
       backgroundImage: (theme) => ({
