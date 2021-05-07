@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <div className="text-gray-700 bg-white ">
@@ -22,18 +24,16 @@ const Header = () => {
           <span className="block relative w-6 h-px rounded-sm bg-black mt-1"></span>
         </button>
         <nav className="hidden sm:flex flex-wrap items-center justify-center text-base">
-          <a
-            href="#"
-            className="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800"
-          >
-            Projects
-          </a>
-          <a
-            href="#"
-            className="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800"
-          >
-            Contact
-          </a>
+          <Link href="#projects">
+            <a className="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">
+              Projects
+            </a>
+          </Link>
+          <Link href="#contact">
+            <a className="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">
+              Contact
+            </a>
+          </Link>
           <a
             href="#"
             className="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800"

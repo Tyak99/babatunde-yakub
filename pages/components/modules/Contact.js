@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="py-8 border-b">
+    <div className="py-8 border-b" id='contact'>
       <h4 className="text-2xl font-semibold leading-normaltext-gray-800 mb-2">
         Contact me
       </h4>
@@ -13,13 +13,17 @@ const Contact = () => {
         </p>
         <p className="text-xl font-light">
           Connect with me on LinkedIn{" "}
-          <a className="underline" href="https://linkedIn">
+          <a
+            className="underline"
+            href="https://www.linkedin.com/in/babatunde-yakub-a59520171/"
+            target="_blank"
+          >
             Babatunde Yakub
           </a>
         </p>
         <p className="text-xl font-light">
           Follow me on Twitter{" "}
-          <a className="underline" href="https://twitter.com/tundenasri">
+          <a className="underline" href="https://twitter.com/tundenasri" target='_blank'>
             @tundenasri
           </a>
         </p>

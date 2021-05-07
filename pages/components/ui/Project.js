@@ -1,4 +1,4 @@
-const Project = ({ title, desc, image, link }) => {
+const Project = ({ title, desc, image, mobileLink, webLink }) => {
   return (
     <div className="flex flex-col gap-6 lg:flex-row">
       <div className={`bg-${image} h-96 bg-cover lg:w-3/6`}></div>
@@ -7,7 +7,10 @@ const Project = ({ title, desc, image, link }) => {
           {title}
         </h4>
         <p className="text-xl font-light">{desc}</p>
-        <a href="https">Open Website</a>
+        <div className='flex flex-row gap-4'>
+          {webLink && <a href={webLink} target='_blank' className='hover:text-gray-500'>View Website</a>}
+          {mobileLink && <a href={mobileLink} target='_blank' className='hover:text-gray-500'>View App</a>}
+        </div>
       </div>
     </div>
   );
