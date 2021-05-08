@@ -11,6 +11,12 @@ module.exports = {
         "fibre-image": "url('/project-images/fibre.svg')",
         "jackocoins-image": "url('/project-images/jackocoins.svg')",
       }),
+      transitionDelay: {
+        0: "0ms",
+      },
+      transitionTimingFunction: {
+        "sidebar-in-out": "cubic-bezier(0.6, 0.05, 0.28, 0.91)",
+      },
       height: {
         112: "28rem",
         128: "32rem",
