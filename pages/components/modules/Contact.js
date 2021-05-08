@@ -17,13 +17,14 @@ const Contact = () => {
             className="underline"
             href="https://www.linkedin.com/in/babatunde-yakub-a59520171/"
             target="_blank"
+            rel="noreferrer"
           >
             Babatunde Yakub
           </a>
         </p>
         <p className="text-xl font-light mt-4">
           Follow me on Twitter{" "}
-          <a className="underline" href="https://twitter.com/tundenasri" target='_blank'>
+          <a className="underline" href="https://twitter.com/tundenasri" target='_blank' rel="noreferrer">
             @tundenasri
           </a>
         </p>

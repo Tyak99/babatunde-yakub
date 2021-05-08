@@ -74,7 +74,7 @@ const getIcon = (type) => {
 
 const Badge = ({ text, icon }) => {
   return (
-    <button className="mr-4 max-w-xs mb-2 py-2 px-4 border rounded-full pointer-events-none cursor-default border-gray-300 flex justify-center round-sm">
+    <button className="mr-4 max-w-xs mb-2 py-2 px-4 border rounded-full pointer-events-none cursor-default border-gray-300 flex justify-center round-sm ">
       {getIcon(icon)}
       <p className="ml-2 text-sm">{text}</p>
     </button>

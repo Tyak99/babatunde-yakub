@@ -9,6 +9,7 @@ const Footer = () => {
               href="https://github.com/tyak99"
               target="_blank"
               className="hover:text-gray-800"
+              rel="noreferrer"
             >
               Github
             </a>
@@ -16,6 +17,7 @@ const Footer = () => {
               href="https://twitter.com/tundenasri"
               className="hover:text-gray-800"
               target="_blank"
+              rel="noreferrer"
             >
               Twitter
             </a>
@@ -23,6 +25,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/babatunde-yakub-a59520171/"
               className="hover:text-gray-800"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
@@ -35,6 +38,7 @@ const Footer = () => {
               href="https://docs.google.com/document/d/1xrpLuLSmsQ8dtKzz2s19v5meoA-DCe2w2l_8vK8HONg/edit?usp=sharing"
               className="hover:text-gray-800"
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>

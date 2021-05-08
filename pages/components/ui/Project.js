@@ -16,6 +16,7 @@ const Project = ({ title, desc, image, mobileLink, webLink }) => {
               href={webLink}
               target="_blank"
               className="hover:text-gray-500 font-semibold"
+              rel="noreferrer"
             >
               View Website
             </a>
@@ -25,6 +26,7 @@ const Project = ({ title, desc, image, mobileLink, webLink }) => {
               href={mobileLink}
               target="_blank"
               className="hover:text-gray-500 font-semibold"
+              rel="noreferrer"
             >
               View App
             </a>

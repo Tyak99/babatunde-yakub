@@ -12,6 +12,7 @@ const RtlProject = ({ title, desc, image, webLink, mobileLink }) => {
               href={webLink}
               target="_blank"
               className="font-semibold hover:text-gray-500"
+              rel="noreferrer"
             >
               View Website
             </a>
@@ -21,6 +22,7 @@ const RtlProject = ({ title, desc, image, webLink, mobileLink }) => {
               href={mobileLink}
               target="_blank"
               className="font-semibold hover:text-gray-500"
+              rel="noreferrer"
             >
               View App
             </a>

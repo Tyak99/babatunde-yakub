@@ -8,10 +8,10 @@ const Sidebar = ({ showSideBar, setShowSideBar }) => {
         showSideBar && "opacity-100 w-4/6 h-full p-8"
       }`}
     >
-      <button type="button" onClick={() => setShowSideBar(false)}>
+      <button type="button" onClick={() => setShowSideBar(false)} aria-label='Close Sidebar' className='focus:outline-none'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 tranform hover:rotate-45"
+          className="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -78,6 +78,7 @@ const Header = () => {
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
             type="button"
+            aria-label='Menu Bar'
             onClick={() => setShowSideBar(!showSideBar)}
           >
             <span className="block relative w-6 h-px rounded-sm bg-black"></span>
