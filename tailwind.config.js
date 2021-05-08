@@ -6,11 +6,6 @@ module.exports = {
       xs: "18rem",
     },
     extend: {
-      backgroundImage: (theme) => ({
-        "sidehustle-image": "url('/project-images/sidehustle.jpg')",
-        "fibre-image": "url('/project-images/fibre.svg')",
-        "jackocoins-image": "url('/project-images/jackocoins.svg')",
-      }),
       transitionDelay: {
         0: "0ms",
       },
